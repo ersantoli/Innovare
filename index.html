@@ -12,10 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Montserrat:wght@100&family=Shalimar&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
+      *{
+        margin:0;
+        padding: 0;
+      }
+
         header{
             display: flex;
             flex-direction: column;
@@ -79,8 +80,9 @@
         }
     .h2TextHeader
       {
-         text-shadow: 6px 5px 5px rgb(37, 35, 35);  
+         text-shadow: 6px 5px 5px rgb(7, 7, 7);  
          font-size: 8vw;
+         color: orangered;
 
             
         }
@@ -94,6 +96,10 @@ justify-content: center;
 align-items: center;
         }
         .name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
             font-size: 4vw;
             font-family: 'Allerta Stencil';
             text-shadow: 6px 5px 5px rgb(111, 108, 108);  
@@ -101,15 +107,15 @@ align-items: center;
         .obutton{
             background-color: orangered;
             color: aliceblue;
-            border-radius: 20px;
-            padding: 5px;
+            border-radius: 20px;            
+            width: 200px;
            
         }
         .subH{
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
-            align-items: baseline;
+            justify-content: center;
+            align-items: center;
             padding: 10px;
             background: rgb(218, 216, 216);
          
@@ -136,12 +142,33 @@ align-items: center;
             
             
         }
+       .Projects{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+       }
+       .Projects img{
+        filter: drop-shadow(-2rem 5rem orangered);
+        padding: 20px;
+       }
+       .txtXP{
+        font-size:1.5rem ;
        
-       
+        text-align: center;
+        border: 2px solid rgb(189, 184, 184);
+       }
+       .FeedBack{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+       }
 
         @media (max-width: 415px)
       
 {
+    .logo{
+    width: 30px;
+}
     header{
         
         height: 200px;
@@ -151,17 +178,53 @@ align-items: center;
         height: 20vh;
     }
     .h2TextHeader{
-        font-size: 7vw;
-        color: rgb(95, 80, 80);
+        font-size: 9vw;
+        color: rgb(21, 20, 20);
+        font-weight: 600;
     }
     .nav-bar{
 width: 90%;
+height: 2vh;
+font-size: 1.7vw;
     }
     .amostras{
-        width: 100px;
-        height: 40px;
+        width: 120px;
+        height: 60px;
+        padding: 0%;
+        
     }
-   
+    .Projects{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+        width: 290px;
+      
+        
+       }
+       .Projects img{
+       width: 160px;
+       filter: drop-shadow(-1rem 1rem rgb(255, 76, 11));
+       }
+   .inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .txtXP{
+    font-size: .5rem;
+    
+    width: 150px;
+    
+   }
+   .txtXPh2{
+    font-size: 1rem;
+   }
 }
 
        
@@ -174,8 +237,13 @@ width: 90%;
 
     <header>
         <div class="inicial">
-            <img class="logo" src="logo house.png" alt="">
+            <div>
+                <img class="logo" src="logo house.png" alt="">
+            </div>
+           <div>
             <h2 class="name">INNOVARE</h2>
+           </div>
+           
         </div>
 
 <div class="nav-bar">
@@ -217,7 +285,7 @@ width: 90%;
 
     </div>
    
-  <div class="carrosel">
+  <div class="carrosel row">
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -258,6 +326,39 @@ width: 90%;
       </div>
 
   </div>
+
+  <div class="Projects">
+<div>
+    <img width="300"  src="cozinha1.jpg" alt="">
+</div>
+<div  style="padding: 20px;text-align: center;">
+    <h2 class="txtXPh2">Entregamos A Melhor Experiência</h2>
+    <p class="txtXP" >Um projeto de móveis planejados buscar ir ao encontro das suas exigências mais específicas, desde tamanho à design e preferências mais subjetivas</p>
+  <button class="obutton" style="width:90px;" >Peça Agora</button>
+</div>
+
+  </div>
+  <div>
+    
+</div>
+
+
+<!--FeedBack Clientes-->
+<div class="FeedBack row">
+
+<div class="col-md-6">
+<img class="img-fluid" src="cliente.png" alt="">
+</div>
+
+<div class="col-md-6">
+    <h2>
+FeedBack dos Clientes
+    </h2>
+    <p>
+O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem do que eu poderia imaginar
+    </p>
+</div>
+</div>
        
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
