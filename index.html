@@ -11,222 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Montserrat:wght@100&family=Shalimar&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-   <style>
-      *{
-        margin:0;
-        padding: 0;
-      }
-
-        header{
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-            background-image: url(banner1.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-size: 100%;
-            height: 90vh;
-            
-            
-           
-            
-            
-        }
-        .nav-bar{
-       display: flex;
-       align-items: center;
-       margin: 0 auto;
-       width: 80%;
-       margin-top: 10px;
-       max-height: 50px;
-       justify-content: space-evenly;
-       color: white;
-       background-color: black;
-       border-radius: 10px;
-       box-shadow: 15px 5px 10px  rgb(94, 92, 92);
-       
+  <link rel="stylesheet" href="style.css">
+  <style>
       
-       
-
-        }
-        h3{
-            text-shadow: 2px 2px 3px rgb(32, 31, 31);
-        }
-        p{
-            text-shadow: 1px 1px 2px rgb(21, 19, 19);
-        }
-        li{
-            list-style: none;
-        }
-        .destaque-li{
-            background-color: orangered;
-            padding: 1px;
-            border-radius: 2px;
-            
-        }
-        .texto-header{
-         display: flex;
-         width: 100%;
-         justify-content: center;
-         align-items: center;
-        
-         height: 100vh;
-         font-family: 'Shalimar', cursive;
-         font-size: 3vw;
-         flex-direction: column;
-
-           
-       
-        }
-    .h2TextHeader
-      {
-         text-shadow: 6px 5px 5px rgb(7, 7, 7);  
-         font-size: 8vw;
-         color: orangered;
-
-            
-        }
-        .logo{
-            width: 70px;
-        }
-        .inicial{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-        }
-        .name{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-            font-size: 4vw;
-            font-family: 'Allerta Stencil';
-            text-shadow: 6px 5px 5px rgb(111, 108, 108);  
-        }
-        .obutton{
-            background-color: orangered;
-            color: aliceblue;
-            border-radius: 20px;            
-            width: 200px;
-           
-        }
-        .subH{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            background: rgb(218, 216, 216);
-         
-            
-            
-
-        }
-        .carousel{
-            
-            padding: 20px;
-          
-          
-
-        }
-        .amostras{
-            width: 20vw;
-            height: 30vh;
-        }
-        .jobDone{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            
-            
-        }
-       .Projects{
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
-       }
-       .Projects img{
-        filter: drop-shadow(-2rem 5rem orangered);
-        padding: 20px;
-       }
-       .txtXP{
-        font-size:1.5rem ;
-       
-        text-align: center;
-        border: 2px solid rgb(189, 184, 184);
-       }
-       .FeedBack{
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-       }
-
-        @media (max-width: 415px)
-      
-{
-    .logo{
-    width: 30px;
-}
-    header{
-        
-        height: 200px;
-
-        }
-    .texto-header{
-        height: 20vh;
-    }
-    .h2TextHeader{
-        font-size: 9vw;
-        color: rgb(21, 20, 20);
-        font-weight: 600;
-    }
-    .nav-bar{
-width: 90%;
-height: 2vh;
-font-size: 1.7vw;
-    }
-    .amostras{
-        width: 120px;
-        height: 60px;
-        padding: 0%;
-        
-    }
-    .Projects{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
-        width: 290px;
-      
-        
-       }
-       .Projects img{
-       width: 160px;
-       filter: drop-shadow(-1rem 1rem rgb(255, 76, 11));
-       }
-   .inicial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   .name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   .txtXP{
-    font-size: .5rem;
-    
-    width: 150px;
-    
-   }
-   .txtXPh2{
-    font-size: 1rem;
-   }
-}
-
        
     </style>
 
@@ -327,20 +114,20 @@ font-size: 1.7vw;
 
   </div>
 
-  <div class="Projects">
-<div>
-    <img width="300"  src="cozinha1.jpg" alt="">
+  <div class="Projects row">
+
+<div class="col-md-6">
+    <img width="450"  src="cozinha1.jpg" alt="">
 </div>
-<div  style="padding: 20px;text-align: center;">
-    <h2 class="txtXPh2">Entregamos A Melhor Experiência</h2>
-    <p class="txtXP" >Um projeto de móveis planejados buscar ir ao encontro das suas exigências mais específicas, desde tamanho à design e preferências mais subjetivas</p>
-  <button class="obutton" style="width:90px;" >Peça Agora</button>
+
+<div class="col-md-6">
+    <h2>Entregamos A Melhor Experiência</h2>
+    <p >Um projeto de móveis planejados buscar ir ao encontro das suas exigências mais específicas, desde tamanho à design e preferências mais subjetivas</p>
+  <button class="obutton">Peça Agora</button>
 </div>
 
   </div>
-  <div>
-    
-</div>
+  
 
 
 <!--FeedBack Clientes-->
@@ -358,9 +145,60 @@ FeedBack dos Clientes
 O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem do que eu poderia imaginar
     </p>
 </div>
+
+</div>
+
+<!--Tradição-->
+
+<div class="tradicao row">   
+   
+<img class="img-fluid" src="tradicao.png" alt="">   
+<img class="img-fluid" src="image2.png" alt="">   
+<img class="img-fluid" src="image3.png" alt="">  
+<img class="img-fluid" src="image4.png" alt="">  
+
+  
 </div>
        
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+
+<footer class="d-flex flex-column mb-3 justify-content-center">
+    <h3 style="text-align: center;color: white;">Redes Socias</h3>
+    <div class=" d-flex flex-row mb-3 justify-content-evenly">
+
+        <div style="text-align: center;">
+            <img width="30" src="instagram.png" alt="">
+        <p style="color:white ;">Instagram</p>
+    </div>
+
+        <div style="text-align: center;">
+            <img width="30" src="whatsapp.png"  alt="">
+       <p style="color:white ;">chama no zap</p>
+        </div>
+
+        <div style="text-align: center;">
+            <img width="30" src="email.png"  alt="">
+       <p style="color:white ;">innovare@gmail.com</p>
+        </div>
+        <div style="text-align: center;">
+            <img width="30" src="location.png"  alt="">
+       <p style="color:white ;">Praia Grande-SP</p>
+        </div>
+     
+     
+     
+     
+    </div>
+
+   
+      
+    <div class="d-flex flex-row mb-3 justify-content-evenly" style="color: white;">
+
+        <li><p>“Seu sonho na medida certa”</p></li>
+        <li>Qualidade Garantida</li>
+        <li>Orçamento sem compromisso</li>
+    </div>
+</footer>
 </body>
 </html>
