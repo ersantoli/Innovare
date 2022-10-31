@@ -5,15 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INNOVARE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Montserrat:wght@100&family=Shalimar&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  
+  
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+  <script src="scricpt.js"></script>
+
+
   <style>
-      
+      .imagemItem{
+			height: 20vw;
+		}
+		@media (max-width: 415px) {
+			
+			.imagemItem{
+			height: 60vh;
+		}
+		}
        
     </style>
 
@@ -33,11 +46,15 @@
            
         </div>
 
+
+        <!--NavBAr-->
 <div class="nav-bar">
     <li>Home</li>
     <li>Serviços</li>
     <li class="destaque-li">Peça seu Orçamento</li>   
 </div>
+
+        <!--fim NavBAr-->
 
 <div class="texto-header">
     <h2 class="h2TextHeader">Seu Sonho Na Medida Certa </h2>
@@ -51,33 +68,33 @@
   <div class="subH">
         <div>
            <a href="">
-            <img class="amostras" src="room.jpg" alt="">
+            <img class="amostras" src="COMPRESSED/quarto.png" alt="">
            </a> 
            <p style="text-align: center;">Quarto</p>
         </div>
 
         <div>
             <a href="">
-                <img class="amostras" src="living_room.jpg" alt="">
+                <img class="amostras" src="COMPRESSED/living_room.jpg" alt="">
                </a> 
                <p style="text-align: center;">Sala</p>
         </div>
 
         <div>
             <a href="">
-                <img class="amostras" src="kitchen.jpg" alt="">
+                <img class="amostras" src="COMPRESSED/kitchen.jpg" alt="">
                </a> 
                <p style="text-align: center;">Cozinha</p>
         </div>
 
     </div>
    
-  <div class="carrosel row">
+  <!--<div class="carrosel row">
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="sala.png" class="d-block w-100" alt="...">
+            <img src="COMPRESSED/sala.png" class="d-block w-100" alt="...">
 
             <div class="carousel-caption d-none d-md-block">
                 <h3>Sala</h3">
@@ -86,7 +103,7 @@
 
           </div>
           <div class="carousel-item">
-            <img src="quarto.png" class="d-block w-100" alt="...">
+            <img src="COMPRESSED/quarto.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h3>Quarto</h3>
                 <p>Ter um quarto planejado é investir no seu bem-estar e conforto!</p>
@@ -95,7 +112,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="cozinha.png" class="d-block w-100" alt="...">
+            <img src="COMPRESSED/cozinha.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h3>Cozinha</h3>
                 <p>Aproveitando todo espaço com praticidade e harmonia..</p>
@@ -112,12 +129,12 @@
         </button>
       </div>
 
-  </div>
+  </div>-->
 
   <div class="Projects row">
 
 <div class="col-md-6">
-    <img width="450"  src="cozinha1.jpg" alt="">
+    <img width="450"  src="COMPRESSED/cozinha1.jpg" alt="">
 </div>
 
 <div class="col-md-6">
@@ -131,20 +148,78 @@
 
 
 <!--FeedBack Clientes-->
+
 <div class="FeedBack row">
+  <h2 style="text-align: center;">FeedBack do Clientes</h2>
+<!--FeedBack 1-->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/feed1.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
 
-<div class="col-md-6">
-<img class="img-fluid" src="cliente.png" alt="">
-</div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Do jeito que eu queria</h5>
+          <p class="card-text">Ficou melhor do que eu esperava.</p>
+          <p class="card-text">Atendimento e produto nota 1000!😍</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+<!--FeedBack 2-->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/feed2.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
 
-<div class="col-md-6">
-    <h2>
-FeedBack dos Clientes
-    </h2>
-    <p>
-O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem do que eu poderia imaginar
-    </p>
-</div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Aprovado</h5>
+          <p class="card-text">Melhor moveis Planejados da Baixada Santista.</p>
+          <p class="card-text">Experiencia Porpria Top d+.👍</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FeedBack 3-->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/feed3.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Recomendadíssimo</h5>
+          <p class="card-text">Moveis de Qualidade, atendimento único.</p>
+          <p class="card-text">😍🥰🤗</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FeedBack 4-->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="img/feed4.jpeg" class="img-fluid rounded-start" alt="...">
+      </div>
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Super indico!!</h5>
+          <p class="card-text">é uma ótima empresa e com excelentes serviços. Bom profissional e produto de ótimas qualidades.</p>
+          <p class="card-text">Vale muito a pena fazer o orçamento com eles.🤩</p>
+        
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
 
@@ -152,14 +227,33 @@ O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem
 
 <div class="tradicao row">   
    
+<<<<<<< HEAD
 <img class="img-fluid" src="tradicao.png" alt="">   
 <img class="img-fluid" src="image2-1.png" alt="">   
 <img class="img-fluid" src="image3.png" alt="">  
 <img class="img-fluid" src="image4.png" alt="">  
+=======
+<img class="img-fluid" src="img/tradicao.png" alt="">   
+<img class="img-fluid" src="img/IMAGEM2-2.png" alt="">   
+<img class="img-fluid" src="COMPRESSED/image3.png" alt="">  
+<img class="img-fluid" src="COMPRESSED/image4.png" alt="">  
+>>>>>>> 3ee2f51 (4° commit)
 
   
 </div>
        
+<!--Nosso Instagram-->
+<!--Instagram-->
+<hr>
+<div class="row int">
+ 
+  <h2 style="text-align:center; margin-top:20px ;">Fotos e videos do Instagram</h2>
+</div>
+<hr>
+<div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag row"></div>
+
+
+
 
 
 
@@ -168,21 +262,21 @@ O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem
     <div class=" d-flex flex-row mb-3 justify-content-evenly">
 
         <div style="text-align: center;">
-            <img width="30" src="instagram.png" alt="">
+            <img width="30" src="img/instagram.png" alt="">
         <p style="color:white ;">Instagram</p>
     </div>
 
         <div style="text-align: center;">
-            <img width="30" src="whatsapp.png"  alt="">
+            <img width="30" src="img/whatsapp.png"  alt="">
        <p style="color:white ;">chama no zap</p>
         </div>
 
         <div style="text-align: center;">
-            <img width="30" src="email.png"  alt="">
+            <img width="30" src="img/email.png"  alt="">
        <p style="color:white ;">innovare@gmail.com</p>
         </div>
         <div style="text-align: center;">
-            <img width="30" src="location.png"  alt="">
+            <img width="30" src="img/location.png"  alt="">
        <p style="color:white ;">Praia Grande-SP</p>
         </div>
      
@@ -190,6 +284,9 @@ O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem
      
      
     </div>
+
+
+    
 
    
       
@@ -199,7 +296,66 @@ O serviço fornecido foi muito bom e amigavel, o resultado foi muito, muito alem
         <li>Qualidade Garantida</li>
         <li>Orçamento sem compromisso</li>
     </div>
+    
+
+
+
 </footer>
+<<<<<<< HEAD
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+=======
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
+<link rel="stylesheet" href="style.css">
+ <script src="scricpt.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+
+  <script type="text/javascript">
+		var feed = new Instafeed({
+			accessToken: 'IGQVJYTUhlbkgzeEp5bGF1NkJXQlBlMnRBZAl9oSmV1b29qZAFgwV0dibUJ4MWc5OUtqWFpXdWJMUmk4czdIcEZA4d2lEQXBjVVZARdUZAQYXh2SUpFZAnZAiWW12UUxLLWxtZA0wweW1pVGg4UWVoZA3ZAJLWdZAagZDZD',
+			limit: 20,
+			
+			template:'<div class="item"><a href="{{link}}" target="_blank"><img class="imagemItem" title="{{caption}}" src="{{image}}" /></a>{{caption}}</div>',
+
+			after: function(){
+				
+
+				$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:true,
+          navText:["Anterior","Proximo"],
+					responsiveClass:true,
+          autoplay:true,
+          autoplayHoverPause:true,
+          
+          
+					responsive:{
+						0:{
+							items:1
+							
+						},
+						600:{
+							items:3
+							
+						},
+						1000:{
+							items:5,							
+							loop:false
+						}
+					}
+				});
+			}
+		});
+
+
+		feed.run();
+
+	</script>
+
+>>>>>>> 3ee2f51 (4° commit)
 </body>
 </html>

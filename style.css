@@ -21,11 +21,11 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
-        background-image: url(banner1.png);
+        background-image: url(img/banner2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100%;
-        height: 90vh;
+        height: 100vh;
         
         
        
@@ -80,9 +80,9 @@
     }
 .h2TextHeader
   {
-     text-shadow: 6px 5px 5px rgb(7, 7, 7);  
+     
      font-size: 8vw;
-     color: #f3720a;
+     font-family: 'Times New Roman', Times, serif;
 
         
     }
@@ -168,22 +168,45 @@ align-items: center;
     
    }
 
+   /*instafeed*/
+   .imagemItem{
+    height: 20vw;
+}
+.int{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2px;
+    text-align: center;
+    
+}
+.int img{
+    width: 30px;
+    height: 30px;
+    
+}
+
+
     @media (max-width: 415px)
   
 {
+    .imagemItem{
+        height: 60vh;}
 .logo{
 width: 30px;
 }
 header{
     
-    height: 200px;
+    height: 250px;
+ 
 
     }
 .texto-header{
     height: 20vh;
 }
 .h2TextHeader{
-    font-size: 9vw;
+    font-size: 6vw;
     color: rgb(21, 20, 20);
     font-weight: 600;
 }
@@ -237,9 +260,9 @@ font-size: 1rem;
 border: 2px solid red;
 }
 .obutton{
-font-size: 1.5rem;
-
-margin-top: 20px;
+font-size: 1rem;
+margin-top: 30px;
+width: 150px;
 }
 .imgprojects{
 border: 2px solid green;
